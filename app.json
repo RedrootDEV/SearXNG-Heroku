@@ -1,0 +1,21 @@
+{
+    "name": "SearxNG",
+    "description": "Privacy-respecting, hackable metasearch engine / pronunciation s\u025c\u02d0ks.",
+    "repository": "https://github.com/searxng/searxng",
+    "logo": "https://github.com/searxng/searxng/raw/master/searx/static/themes/simple/img/searxng.png",
+    "keywords": [
+        "search",
+        "metasearch",
+        "heroku",
+        "degoogle",
+        "privacy"
+    ],
+    "stack": "container",
+    "env": {
+        "INSTANCE_NAME": {
+            "description": "Instance name",
+            "value": "searxng",
+            "required": false
+        }
+    }
+}
