@@ -845,23 +845,36 @@ engines:
       results: HTML
 
   - name: qwant
+    qwant_categ: web
     engine: qwant
     shortcut: qw
-    categories: general
+    categories: [general, web]
     disabled: false
     additional_tests:
       rosebud: *test_rosebud
 
   - name: qwant news
+    qwant_categ: news
     engine: qwant
     shortcut: qwn
     categories: news
+    disabled: false
     network: qwant
 
   - name: qwant images
+    qwant_categ: images
     engine: qwant
     shortcut: qwi
-    categories: images
+    categories: [images, web]
+    disabled: false
+    network: qwant
+
+  - name: qwant videos
+    qwant_categ: videos
+    engine: qwant
+    shortcut: qwv
+    categories: [videos, web]
+    disabled: false
     network: qwant
 
   - name: reddit
