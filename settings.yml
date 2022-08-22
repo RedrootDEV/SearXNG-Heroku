@@ -848,7 +848,7 @@ engines:
     engine: qwant
     shortcut: qw
     categories: general
-    disabled: true
+    disabled: false
     additional_tests:
       rosebud: *test_rosebud
 
